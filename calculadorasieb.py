@@ -1,5 +1,3 @@
-%%writefile calest.py
-
 def media(datos):
   suma = 0
   for x in datos:
@@ -10,5 +8,5 @@ def de(datos):
   m = media(datos)
   suma_cuadrados = 0
   for x in datos:
-    suma_cuadrados = suma_cuadrados + (x- m)**2
-  return (suma / len(datos)**0.5)
+    suma_cuadrados = suma_cuadrados + (x - m)**2
+  return (suma_cuadrados/len(datos))**0.5
